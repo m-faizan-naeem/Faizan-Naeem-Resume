@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faizan Naeem - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.3rem 0;
+      font-size: 0.95rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      border-left: 5px solid #003366;
+      padding-left: 10px;
+      color: #003366;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .skills-table td {
+      padding: 6px 10px;
+      vertical-align: top;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #003366;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      margin: 2rem 0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Faizan Naeem</h1>
+    <p>Lahore, Pakistan | +92 313 4222603 | <a href="mailto:mfaizan.naeem7@gmail.com" style="color:#ffcc00;">mfaizan.naeem7@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/m-faizan-naeem/" target="_blank" style="color:#ffcc00;">linkedin.com/in/m-faizan-naeem</a></p>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p>Senior iOS Engineer with 5+ years of experience designing, developing, and scaling high-performance mobile applications. Strong expertise in Swift, Objective-C, and modern iOS frameworks, with additional hands-on exposure to backend systems (Java Spring Boot) and admin portals (Ruby on Rails). Experienced in integrating analytics, deep linking, and mobile engagement platforms, with a proven track record of delivering secure, user-focused, and scalable solutions.</p>
+  </section>
+
+  <section>
+    <h2>Core Skills</h2>
+    <table class="skills-table">
+      <tr><td class="highlight">Mobile Development:</td><td>Swift, Objective-C, SwiftUI, UIKit, Xcode, App Store Submission</td></tr>
+      <tr><td class="highlight">Architecture & Practices:</td><td>MVVM, MVC, Test-Driven Development, CI/CD, Agile/Scrum</td></tr>
+      <tr><td class="highlight">Backend & Web Exposure:</td><td>Java (Spring Boot), Ruby on Rails, RESTful APIs, JSON</td></tr>
+      <tr><td class="highlight">Cloud & Tools:</td><td>AWS, Firebase Analytics, Amplitude Analytics, Braze IAPO, Branch Deeplinking</td></tr>
+      <tr><td class="highlight">Other:</td><td>Git, Jira, Subversion, Postman, Unit Testing, UI Testing, Secure Storage, Performance Optimization</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+    <h3>ExperLabs, Lahore — Senior iOS Engineer (2021 – Present)</h3>
+    <ul>
+      <li>Developed and maintained high-quality, scalable iOS applications, improving stability and user retention.</li>
+      <li>Improved code quality by 25% by applying MVVM and clean architecture practices.</li>
+      <li>Reduced post-release defects by 30% by introducing TDD workflows.</li>
+      <li>Integrated push notifications, location services, and secure storage (SSL pinning, encrypted UserDefaults).</li>
+      <li>Conducted code reviews and mentored junior engineers, improving onboarding efficiency by 40%.</li>
+    </ul>
+    <p><span class="highlight">Seated (iOS + Backend + Admin Portal):</span></p>
+    <ul>
+      <li>Contributed to the flagship Seated iOS app (<b>1M+ downloads, 4.5★ rating</b>) by delivering new features and performance enhancements.</li>
+      <li>Enhanced scalability, enabling faster feature releases and smoother reservation flows.</li>
+      <li>Collaborated with backend teams, working on the Java Spring Boot backend and Ruby on Rails admin portal, supporting feature development and integrations.</li>
+      <li>Integrated Branch Deeplinking, Braze IAPO, Amplitude, and Firebase Analytics to improve growth tracking, user engagement, and retention.</li>
+      <li>Leveraged AWS services to enable secure, scalable cloud integration.</li>
+    </ul>
+
+    <h3>Pentaloop, Lahore — Associate Software Engineer (2020 – 2021)</h3>
+    <ul>
+      <li>Built streaming and remote-control apps for Fire TV, Roku, Chromecast, and LG TV.</li>
+      <li>Increased user engagement by 15% through feature enhancements and performance optimization.</li>
+      <li>Integrated Google AdMob, driving a 40% increase in ad impressions and app revenue.</li>
+      <li>Diagnosed and resolved production issues, improving customer satisfaction.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><b>BS – Computer Science</b>, National University of Computer and Emerging Sciences (FAST), Lahore (2016 – 2020)</p>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <p>Book Reading | Coding | Emerging Technologies</p>
+  </section>
+
+  <footer>
+    © 2025 Faizan Naeem — Resume Website
+  </footer>
+</body>
+</html>
